@@ -1,9 +1,15 @@
+'use client';
 import React from 'react'
+import Product from './Component/Product'
+import 'bootstrap/dist/css/bootstrap.css';
 
-const page = () => {
+const Page = () => {
   return (
-    <div>page</div>
+    <>
+    <Product/>
+    
+    </>
   )
 }
 
-export default page
+export default Page
